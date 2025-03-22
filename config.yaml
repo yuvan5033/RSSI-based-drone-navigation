@@ -1,0 +1,19 @@
+drone:
+  max_speed: 5.0 # m/s
+  pid_gains:
+    kp: 1.0
+    ki: 0.1
+    kd: 0.05
+
+mqtt:
+  broker: "localhost"
+  port: 1883
+  topic: "drone/telemetry"
+
+ble:
+  scan_interval: 5 # seconds
+
+ble_beacons:
+  - uuid: "12345678-1234-1234-1234-1234567890ab"
+    major: 1
+    minor: 0
