@@ -1,4 +1,4 @@
-**RSSI-Based Autonomous Drone Navigation for Garbage Collection Using Control Systems**
+#### **RSSI-Based Autonomous Drone Navigation for Garbage Collection Using Control Systems**
 
 ---
 
