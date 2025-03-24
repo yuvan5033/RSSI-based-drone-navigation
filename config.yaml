@@ -15,5 +15,11 @@ ble:
 
 ble_beacons:
   - uuid: "12345678-1234-1234-1234-1234567890ab"
-    major: 1
-    minor: 0
+
+beacons:
+  "2dc76ea3-6668-48da-9866-75be8bc86f4d": # Beacon 1 UUID
+    location: "one"
+  "8ec76ea3-6668-48da-9866-75be8bc86f4d": # Beacon 2 UUID
+    location: "two"
+  "6cc76ea3-6668-48da-9866-75be8bc86f4d": # Beacon 3 UUID
+    location: "three"
